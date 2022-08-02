@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.form{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin: 10px;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    border: solid;
+    border-color: green;
+    padding: 10px;
+}
+
+.input::placeholder{
+    color: lightgray;
+
+}
+.btn{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.btn:hover {
+    filter: brightness(0.8);
+}
+
+.score{
+    color: green;
+text-align: right;
+}
